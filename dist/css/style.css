@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "LegatoTF-SemiBold";
+  font-display: swap;
+  src: url("../fonts/LegatoTF-SemiBold.woff") format("woff"), url("../fonts/LegatoTF-SemiBold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  font-display: swap;
+  src: url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  font-display: swap;
+  src: url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-size: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+span {
+  font-style: 20px;
+}
+
+div {
+  font-size: 30px;
+  background-image: url(../img/1.jpg);
+}
+
+@media (max-width: 767px) {
+  span {
+    font-size: 15px;
+  }
+
+  div {
+    font-size: 20px;
+  }
+}
+@supports (-webkit-appearance:none){
+div{background-image:url(../img/1.webp)}
+}
+
+ @media (max-width: 767px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
